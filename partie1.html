@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>document</title>
+</head>
+
+<body>
+
+    <form action="">
+        <ul>
+            <p>EXO 4 :</p>
+            <li><label for="lastName">Nom de famille : </label>
+                <input type="text" id="lastName" required></li>
+            <li><label for="firstName">Prénom : </label>
+                <input type="text" id="firstName" required></li>
+            <li><label for="city">Ville : </label>
+                <input type="text" id="city" required></li>
+            <button onclick="displayInfo()">envoyer</button>
+        </ul>
+    </form>
+
+    <form>
+        <p>EXO 5 :</p>
+        Nombre 1 : <input id="nombre1" name="x" value=""><br>
+        Nombre 2 : <input id="nombre2" name="y" value=""><br>
+        <button onclick="divisionNombre()">Reste de la Division</button>
+    </form>
+<!-- pour une écriture correcte, IL FAUT UTILISER les <label/> pour identifier 
+    et nominer la case,   ex:  <label for="nomber1">Premier nombre</label>  -->
+    <form>
+        <p>EXO 6 :</p>
+        Votre pointure : <input id="pointure" name="x" value=""><br>
+        Votre année de naissance : <input id="year" name="y" value=""><br>
+        <button onclick="result()">Résultat</button>
+    </form>
+
+    <form>
+            <p>EXO 7 :</p>
+            Quel âge avez-vous ? <input id="age" name="x" value=""><br>
+            <button onclick="answer()">Réponse</button>
+        </form>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
